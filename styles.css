@@ -375,8 +375,7 @@ h3 {
 
 .featured-work,
 .selected-interface-work,
-.ops-exposure,
-.presentation-section {
+.ops-exposure {
   display: grid;
   grid-template-columns: minmax(170px, var(--rail-width)) minmax(0, 1fr);
   gap: var(--section-gap);
@@ -1240,40 +1239,6 @@ h3 {
   line-height: 1.12;
 }
 
-.presentation-section {
-  border-top: 1px solid var(--line);
-}
-
-.presentation-body {
-  min-width: 0;
-}
-
-.talk-route {
-  display: grid;
-  gap: 0;
-  max-width: 960px;
-  margin: 32px 0 0;
-  padding: 0;
-  list-style: none;
-  border-top: 1px solid var(--line);
-}
-
-.talk-route li {
-  display: grid;
-  grid-template-columns: 130px minmax(0, 1fr);
-  gap: 24px;
-  padding: 22px 0;
-  border-bottom: 1px solid var(--line);
-  color: #343930;
-  font-size: var(--type-lede);
-}
-
-.talk-route span {
-  color: var(--rust);
-  font-size: var(--type-label);
-  font-weight: 900;
-}
-
 .site-footer {
   display: flex;
   align-items: flex-end;
@@ -1367,8 +1332,7 @@ h3 {
   .position-section,
   .featured-work,
   .selected-interface-work,
-  .ops-exposure,
-  .presentation-section {
+  .ops-exposure {
     grid-template-columns: 1fr;
   }
 
@@ -1580,11 +1544,6 @@ h3 {
   .phone-strip {
     max-width: 320px;
     margin: 0 auto;
-  }
-
-  .talk-route li {
-    grid-template-columns: 1fr;
-    gap: 7px;
   }
 
   .site-footer {
