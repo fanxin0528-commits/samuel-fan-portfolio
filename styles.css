@@ -1530,11 +1530,18 @@ h3 {
   }
 
   .decision-arrow {
-    min-height: 42px;
+    min-height: 52px;
     border: 0;
     border-top: 1px solid var(--line);
     border-bottom: 1px solid var(--line);
-    transform: rotate(90deg);
+    font-size: 0;
+    transform: none;
+  }
+
+  .decision-arrow::before {
+    content: "↓";
+    font-size: 1.45rem;
+    line-height: 1;
   }
 
   .decision-column {
