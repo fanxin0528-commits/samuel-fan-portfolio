@@ -32,3 +32,6 @@ img{max-width:100%;height:auto}.home-v16{background:#e1e9fc;color:#19313c;border
 @media(max-width:700px){.home-brief>div{display:contents}.home-brief h2{order:0;font-size:32px}.home-brief .home-interface{order:1}.home-brief .primary-deck{order:2;margin:0}.home-brief .home-role{order:3;margin:0}.home-brief .primary-actions{order:4;margin:0}.home-brief{gap:20px}.review-v16 .quick-facts>div{padding:10px 0}.review-v16 .quick-facts dd{font-size:15px}.review-v16 .estimate{font-size:12px}.review-v16 .fct-hero{gap:22px}}
 
 @media(min-width:1350px){.review-v16 .key-mobile{margin-left:-50px;margin-right:-50px}.review-v16 .key-admin{margin-left:-50px;margin-right:-50px}}
+
+/* v17: complete, privacy-redacted academic team poster. */
+.poster-study{grid-template-columns:1.25fr 1fr;gap:52px;align-items:start}.team-poster{margin:0}.team-poster img{width:100%;height:auto;display:block;background:black}.team-poster figcaption{font:12px/1.6 Body;color:#536875;margin-top:15px}.poster-study h2{font-size:42px;margin-top:15px}.poster-study .medical-note{margin-top:28px}.poster-note{font:13px/1.6 Body;color:#536875;margin-top:30px}@media(max-width:700px){.poster-study{grid-template-columns:1fr;gap:25px}.poster-study h2{font-size:34px}.team-poster figcaption{font-size:13px}}
